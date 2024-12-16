@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "js", // compile into js folder
+        "target": "ES6", //// allows compile code TypeScript to type ES6
+        "module": "CommonJS", // CommonJS is standard used in Node.js to doing with modules
+        "removeComments": true, // delete comments when compile to file js
+        "esModuleInterop": true, // import <- require
+    }
+}
